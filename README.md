@@ -5,7 +5,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Calculadora</title>
   <style>
-    body {
+    .body {
       font-family: Arial, sans-serif;
       display: flex;
       justify-content: center;
@@ -14,7 +14,6 @@
       margin: 0;
       background-color: #202020;
     }
-
     .calculadora {
       width: 300px;
       background-color: #333;
@@ -22,7 +21,6 @@
       overflow: hidden;
       box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
     }
-
     .tela {
       background-color: #222;
       color: #fff;
@@ -31,7 +29,6 @@
       padding: 20px;
       box-sizing: border-box;
     }
-
     .botoes {
       display: grid;
       grid-template-columns: repeat(4, 1fr);
@@ -39,7 +36,6 @@
       padding: 10px;
       background-color: #444;
     }
-
     .botao {
       background-color: #555;
       color: #fff;
@@ -50,26 +46,21 @@
       cursor: pointer;
       transition: background-color 0.3s;
     }
-
     .botao:hover {
       background-color: #777;
     }
-
     .botao:active {
       background-color: #999;
     }
-
     .botao.largo {
       grid-column: span 2;
     }
-
     .botao.igual {
       background-color: #0078D7;
     }
-
     .botao.igual:hover {
       background-color: #005BB5;
-    }
+    }    
   </style>
 </head>
 <body>
